@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorh5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding  ="20dp"
+        android:background="#fff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="@color/colorh5"
+        android:gravity="center_vertical"
+        android:text="Bank Name :">
+    </TextView>
+                    <TextView
+                        android:id="@+id/bname"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="20sp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:text="Bank Of Ceylon">
+                    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorh5"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="Account Type :"
+        >
+    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="20sp"
+                        android:id="@+id/btype"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:text="Saving Account">
+                    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorh5"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="Account No: :">
+    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="20sp"
+                        android:id="@+id/bno"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:text="123456789">
+                    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorh5"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="Branch :">
+    </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="20sp"
+                            android:id="@+id/bpin"
+                            android:layout_marginLeft="30dp"
+                            android:text="Negombo">
+    </TextView>
+    </LinearLayout>
+</LinearLayout>

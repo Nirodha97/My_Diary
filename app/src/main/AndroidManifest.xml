@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nirodha.mydiary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".addShopingItemActivity"></activity>
+        <activity android:name=".shopingActivity" />
+        <activity android:name=".addbirthday" />
+        <activity android:name=".birthdayActivity" />
+        <activity android:name=".bank_view" />
+        <activity android:name=".addBank" />
+        <activity android:name=".banksActivity" />
+        <activity android:name=".addAccount" />
+        <activity android:name=".accountsActivity" />
+        <activity android:name=".to_do_view" />
+        <activity android:name=".AddNew_to_do_list" />
+        <activity android:name=".to_do_list" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

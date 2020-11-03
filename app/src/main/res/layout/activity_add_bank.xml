@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="@color/colorh5"
+        android:textColor="#fff"
+        android:text="Add Bank Account Details"
+        android:textSize="20sp"
+        android:gravity="center"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etBankName"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Bank Name"
+        android:textSize="20sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etAccType"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Account Type"
+        android:textSize="20sp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etAccNumber"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Account Number"
+        android:textSize="20sp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Branch Name"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="start|top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CLEAR"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:onClick="clear"
+            android:background="#C51162">
+
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:onClick="save"
+            android:background="#00C853">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

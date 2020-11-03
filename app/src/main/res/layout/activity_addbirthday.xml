@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Add Birth Day"
+        android:textColor="#fff"
+        android:background="@color/colorh3"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Person Name"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textSize="20sp">
+
+    </EditText>
+    <TextView
+        android:id="@+id/setdate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Touch to Select the Date"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+
+<!--    <CalendarView-->
+<!--        android:id="@+id/calendar1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="5">-->
+
+<!--    </CalendarView>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3">
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="save"
+            android:onClick="save"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#00C853"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

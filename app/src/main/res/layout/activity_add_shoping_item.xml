@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:text="Add Shopping Item"
+        android:background="@color/colorh2"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etItem"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Item"
+        android:textSize="20sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etQ"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Quantity"
+        android:textSize="20sp">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CLEAR"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:onClick="clear"
+            android:background="#C51162">
+
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:onClick="save"
+            android:background="#00C853">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

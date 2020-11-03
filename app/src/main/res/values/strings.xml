@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Diary</string>
+    <string name="home1">To Do List</string>
+    <string name="home2">Shopping List</string>
+    <string name="home3">Birth Day Calender</string>
+    <string name="home4">Accounts Handler</string>
+    <string name="home5">My Bank Details</string>
+    <string name="add1">Add To Do List</string>
+    <string name="h1">To Do List</string>
+    <string name="h2">Shopping List</string>
+    <string name="h3">Birth Day Calender</string>
+    <string name="h4">Accounts List</string>
+    <string name="h5">My Bank Accounts</string>
+</resources>

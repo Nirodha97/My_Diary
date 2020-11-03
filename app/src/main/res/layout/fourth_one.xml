@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/acc_round"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:text="My Gmail"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="Email"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/e4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="example@gmail.com"
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="User Name"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/u4"
+            android:layout_width="0dp"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nirodha"
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="Password Hint"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="abc123"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/list4_id">
+        </TextView>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:layout_marginBottom="100dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/todo_round"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/title"
+        android:text="Task 01"
+        android:background="#fff"
+        android:textSize="20sp"
+        android:padding="10dp"
+       >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/date"
+        android:background="#fff"
+        android:text="2020-08-16"
+        android:textSize="18sp"
+        android:padding="10dp"
+       >
+    </TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/list_id">
+    </TextView>
+
+    </LinearLayout>
+</LinearLayout>
